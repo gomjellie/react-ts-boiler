@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = () => {
+interface Props {}
+
+const App = ({}: Props) => {
   return <h1>Hello World!</h1>;
 };
 
